@@ -1,0 +1,10 @@
+.pointer-follower-circle {
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    animation: 4s cubic-bezier(.17,.67,.83,.67) alternate infinite backgroundGradientChange;
+    transition: 0.2s;
+    pointer-events: none;
+}

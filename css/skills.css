@@ -1,0 +1,119 @@
+#skills {
+    background-color: darkgrey;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    color: #fff;
+    padding: 100px 30%;
+    min-height: 50vh;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #skills {
+        padding: 100px 10%;
+    }
+}
+
+#skills .inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.box.col-1,
+.box.col-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.box.col-1 {
+    padding-right: 60px;
+    width: 70%;
+}
+
+.box.col-2 {
+    justify-content: space-between;
+    width: 30%;
+}
+
+.box h2 {
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.box .subtitle {
+    color: #fff;
+}
+
+.box p {
+    color: #999;
+    line-height: 1.5;
+    max-width: 600px;
+}
+
+.progress-bar {
+    display: flex;
+    flex-wrap: wrap;
+    color: #999;
+}
+
+.progress-bar {
+    margin-top: 2em;
+}
+
+.progress-bar:first-child {
+    margin-top: 3em;
+}
+
+.progress-bar:last-child {
+    margin-bottom: .5em;
+}
+
+.progress-value {
+    margin-left: auto;
+}
+
+.progress-line {
+    border-radius: 4px;
+    background-color: #fff;
+    height: 8px;
+    margin-top: 10px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.progress-line span {
+    display: block;
+    width: 0;
+    height: 100%;
+    background-color: #fc0;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-delay: .3s;
+    transition-timing-function: ease-in-out;
+}
+
+.facts {
+    width: 100%;
+}
+
+.facts h3{
+    font-size: 23px;
+    font-family: 'EB Garamond', serif;
+    line-height: 28px;
+    font-style: normal;
+    letter-spacing: 0.5px;
+}
+
+@media screen and (max-width:992px) {
+
+    .box.col-1,
+    .box.col-2 {
+        min-width: 100%;
+        padding-right: 0;
+    }
+
+}
