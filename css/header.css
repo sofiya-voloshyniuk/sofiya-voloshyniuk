@@ -52,13 +52,13 @@ header h1 {
 .inner .video-overlay .main-info {
     font-family: 'Tinos', serif;
     font-size: 30px;
-    max-width: 50%;
     text-transform: none;
+    padding-left: 10px;
 }
 
 .main-info h3 {
-    font-family: 'EB Garamond', serif;
-    font-size: 30px;
+    font-family: 'Oswald', serif;
+    font-size: var(--nav-font-size);
     line-height: 27px;
 }
 
